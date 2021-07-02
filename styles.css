@@ -13,15 +13,16 @@ body {
 h1 {
   margin: 4rem;
   color: #b7fdfe;
-  font-size: 12rem;
+  font-size: clamp(7rem, 20vw, 20rem);
   /* font-family: "Lato"; */
   font-family: "Bebas Neue";
+  line-height: 0.95;
 }
 
 h3 {
   margin: 5rem;
   color: #b7fdfe;
-  font-size: 4rem;
+  font-size: clamp(3rem, 10vw, 8rem);
   font-family: "Lato";
 }
 
