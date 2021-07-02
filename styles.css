@@ -14,7 +14,6 @@ h1 {
   margin: 4rem;
   color: #b7fdfe;
   font-size: clamp(7rem, 20vw, 16rem);
-  /* font-family: "Lato"; */
   font-family: "Bebas Neue";
   line-height: 0.95;
 }
@@ -28,4 +27,21 @@ h3 {
 
 .icon {
   margin-left: 5rem;
+}
+
+.blinking-cursor {
+  font-size: 60px;
+  color: #b7fdfe;
+  margin-left: 1rem;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #b7fdfe;
+  }
 }
